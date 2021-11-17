@@ -1,5 +1,5 @@
 resource "aws_security_group" "ssh_access" {
-  vpc_id      = "${local.vpc_id}"
+  vpc_id      = "${var.vpc_id}"
   name        = "${var.prefix}-ssh_access"
   description = "SSH access group"
 
