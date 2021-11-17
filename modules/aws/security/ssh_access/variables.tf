@@ -18,5 +18,5 @@ variable "ingress" {
 }
 
 variable "tags" {
-  type = map(string)
+  type = map(string
 }
